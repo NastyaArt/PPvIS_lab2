@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <surname>Артемчук</surname>
+        <name>Анастасия</name>
+        <fathername>Сергеевна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Общественная работа 1</workName>
+            <time>80</time>
+        </work>
+        <work semestr="2">
+            <workName>Общественная работа 2</workName>
+            <time>45</time>
+        </work>
+        <work semestr="3">
+            <workName>Общественная работа 3</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Общественная работа 4</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Общественная работа 5</workName>
+            <time>79</time>
+        </work>
+    </student>
+	    <student>
+        <surname>Артемчук</surname>
+        <name>Анастасия</name>
+        <fathername>Сергеевна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Общественная работа 144</workName>
+            <time>80</time>
+        </work>
+        <work semestr="2">
+            <workName>Общественная работа 2</workName>
+            <time>45</time>
+        </work>
+        <work semestr="3">
+            <workName>Общественная работа 3</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Общественная работа 4</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Общественная работа 5</workName>
+            <time>79</time>
+        </work>
+    </student>
+	    <student>
+        <surname>Артемчук</surname>
+        <name>Анастасия</name>
+        <fathername>Сергеевна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Общественная работа 123</workName>
+            <time>80</time>
+        </work>
+        <work semestr="2">
+            <workName>Общественная работа 2</workName>
+            <time>45</time>
+        </work>
+        <work semestr="3">
+            <workName>Общественная работа 3</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Общественная работа 4</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Общественная работа 5</workName>
+            <time>79</time>
+        </work>
+    </student>
+    <student>
+        <surname>Фамилия</surname>
+        <name>Имя</name>
+        <fathername>Отчество</fathername>
+        <group>5217031</group>
+        <work semestr="1">
+            <workName>Общественная работа 11</workName>
+            <time>801</time>
+        </work>
+        <work semestr="2">
+            <workName>Общественная работа 21</workName>
+            <time>451</time>
+        </work>
+        <work semestr="3">
+            <workName>Общественная работа 31</workName>
+            <time>171</time>
+        </work>
+        <work semestr="4">
+            <workName>Общественная работа 41</workName>
+            <time>341</time>
+        </work>
+        <work semestr="5">
+            <workName>Общественная работа 51</workName>
+            <time>791</time>
+        </work>
+    </student>
+</students>

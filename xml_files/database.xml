@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <surname>Артемчук</surname>
+        <name>Анастасия</name>
+        <fathername>Сергеевна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>89</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>120</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>54</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>17</time>
+        </work>
+    </student>
+    <student>
+        <surname>Талах</surname>
+        <name>Барбара</name>
+        <fathername>Юрьевна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Уход за местами захоронений</workName>
+            <time>78</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>12</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>10</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>78</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>90</time>
+        </work>
+    </student>
+    <student>
+        <surname>Петров</surname>
+        <name>Сергей</name>
+        <fathername>Викторович</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Уход за местами захоронений</workName>
+            <time>19</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>19</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>76</time>
+        </work>
+    </student>
+    <student>
+        <surname>Богумильчик</surname>
+        <name>Мария</name>
+        <fathername>Сергеевна</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>7</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>87</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>39</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>23</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+    </student>
+    <student>
+        <surname>Мартынов</surname>
+        <name>Федор</name>
+        <fathername>Сергеевич</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>14</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>25</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>8</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>9</time>
+        </work>
+    </student>
+    <student>
+        <surname>Петров</surname>
+        <name>Федор</name>
+        <fathername>Николаевич</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>14</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>25</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>9</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>77</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>81</time>
+        </work>
+    </student>
+    <student>
+        <surname>Думич</surname>
+        <name>Татьяна</name>
+        <fathername>Павловна</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>5</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>9</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>15</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>2</time>
+        </work>
+    </student>
+    <student>
+        <surname>Проклятый</surname>
+        <name>Николай</name>
+        <fathername>Евгеньевич</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>13</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>6</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>6</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>6</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>13</time>
+        </work>
+    </student>
+    <student>
+        <surname>Мухина</surname>
+        <name>Лада</name>
+        <fathername>Антоновна</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>65</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>90</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>67</time>
+        </work>
+    </student>
+    <student>
+        <surname>Походзило</surname>
+        <name>Анна</name>
+        <fathername>Святославовна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>13</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>34</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>89</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>100</time>
+        </work>
+    </student>
+    <student>
+        <surname>Конюх</surname>
+        <name>Кирилл</name>
+        <fathername>Васильевич</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>34</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>23</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+    </student>
+    <student>
+        <surname>Романенко</surname>
+        <name>Зиновий</name>
+        <fathername>Карлович</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>12</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>23</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>34</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+    <student>
+        <surname>Стефаненко</surname>
+        <name>Дмитрий</name>
+        <fathername>Николаевич</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>9</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>89</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>11</time>
+        </work>
+    </student>
+    <student>
+        <surname>Стефаненко</surname>
+        <name>Алина</name>
+        <fathername>Леонидовна</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>44</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>98</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>67</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>90</time>
+        </work>
+    </student>
+    <student>
+        <surname>Петров</surname>
+        <name>Никита</name>
+        <fathername>Карлович</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>82</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>4</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>11</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>83</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>66</time>
+        </work>
+    </student>
+    <student>
+        <surname>Лавришик</surname>
+        <name>Василий</name>
+        <fathername>Васильевич</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>22</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>92</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+	<student>
+        <surname>Карпатова</surname>
+        <name>Ирина</name>
+        <fathername>Вячеславовна</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>14</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>25</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>8</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>9</time>
+        </work>
+    </student>
+    <student>
+        <surname>Петров</surname>
+        <name>Петр</name>
+        <fathername>Петрович</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>32</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>65</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>98</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>67</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>11</time>
+        </work>
+    </student>
+    <student>
+        <surname>Дударева</surname>
+        <name>Анна</name>
+        <fathername>Данииловна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>5</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>9</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>15</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>2</time>
+        </work>
+    </student>
+    <student>
+        <surname>Пономаренко</surname>
+        <name>Николай</name>
+        <fathername>Дмитриевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>89</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>37</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>103</time>
+        </work>
+    </student>
+    <student>
+        <surname>Мухтар</surname>
+        <name>Сергей</name>
+        <fathername>Викторович</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>65</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>90</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>67</time>
+        </work>
+    </student>
+    <student>
+        <surname>Сафоненко</surname>
+        <name>Анна</name>
+        <fathername>Семеновна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>19</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>67</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>78</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>23</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>18</time>
+        </work>
+    </student>
+    <student>
+        <surname>Белый</surname>
+        <name>Кирилл</name>
+        <fathername>Валентинович</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>34</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>23</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+    </student>
+    <student>
+        <surname>Хомяк</surname>
+        <name>Виктор</name>
+        <fathername>Сергеевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>12</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>23</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>34</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+    <student>
+        <surname>Стефаненко</surname>
+        <name>Артем</name>
+        <fathername>Николаевич</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>91</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>45</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>34</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>19</time>
+        </work>
+    </student>
+    <student>
+        <surname>Артемчук</surname>
+        <name>Никита</name>
+        <fathername>Сергеевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>120</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>59</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>67</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>90</time>
+        </work>
+    </student>
+    <student>
+        <surname>Гробовой</surname>
+        <name>Никита</name>
+        <fathername>Маратович</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>82</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>4</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>11</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>83</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>66</time>
+        </work>
+    </student>
+    <student>
+        <surname>Лаврищева</surname>
+        <name>Анастасия</name>
+        <fathername>Васильевна</fathername>
+        <group>521701</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>22</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>92</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+	<student>
+        <surname>Тупик</surname>
+        <name>Федор</name>
+        <fathername>Сергеевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>14</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>25</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>8</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>9</time>
+        </work>
+    </student>
+    <student>
+        <surname>Крот</surname>
+        <name>Федор</name>
+        <fathername>Николаевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>14</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>25</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>9</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>77</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>81</time>
+        </work>
+    </student>
+    <student>
+        <surname>Кот</surname>
+        <name>Дмитрий</name>
+        <fathername>Павлович</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>69</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>15</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>49</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>15</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>24</time>
+        </work>
+    </student>
+    <student>
+        <surname>Носов</surname>
+        <name>Николай</name>
+        <fathername>Кириллович</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>13</time>
+        </work>
+        <work semestr="2">
+            <workName>Уход за местами захоронений</workName>
+            <time>6</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>6</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>6</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>13</time>
+        </work>
+    </student>
+    <student>
+        <surname>Ложкина</surname>
+        <name>Эльвира</name>
+        <fathername>Семеновна</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+        <work semestr="2">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>17</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>90</time>
+        </work>
+        <work semestr="5">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>67</time>
+        </work>
+    </student>
+    <student>
+        <surname>Ветрова</surname>
+        <name>Анна</name>
+        <fathername>Егоровна</fathername>
+        <group>521702</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>71</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>34</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>9</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>10</time>
+        </work>
+    </student>
+    <student>
+        <surname>Конюх</surname>
+        <name>Егор</name>
+        <fathername>Романович</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Социальные услуги для населения</workName>
+            <time>67</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>90</time>
+        </work>
+        <work semestr="3">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>34</time>
+        </work>
+        <work semestr="4">
+            <workName>Уход за местами захоронений</workName>
+            <time>23</time>
+        </work>
+        <work semestr="5">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+    </student>
+    <student>
+        <surname>Романович</surname>
+        <name>Вениамин</name>
+        <fathername>Васильевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>45</time>
+        </work>
+        <work semestr="2">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>30</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>56</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+    <student>
+        <surname>Кузин</surname>
+        <name>Дмитрий</name>
+        <fathername>Николаевич</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>67</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>67</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>100</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>89</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>11</time>
+        </work>
+    </student>
+    <student>
+        <surname>Стефаненко</surname>
+        <name>Лидия</name>
+        <fathername>Сергеевна</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>44</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>98</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>12</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>67</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>90</time>
+        </work>
+    </student>
+    <student>
+        <surname>Семенов</surname>
+        <name>Роман</name>
+        <fathername>Юрьевич</fathername>
+        <group>521703</group>
+        <work semestr="1">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>82</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>4</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>11</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>83</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>66</time>
+        </work>
+    </student>
+    <student>
+        <surname>Лавришик</surname>
+        <name>Егор</name>
+        <fathername>Валерьевич</fathername>
+        <group>521704</group>
+        <work semestr="1">
+            <workName>Экологическое оздоровление территорий</workName>
+            <time>22</time>
+        </work>
+        <work semestr="2">
+            <workName>Сельскохозяйственные работы</workName>
+            <time>8</time>
+        </work>
+        <work semestr="3">
+            <workName>Восстановление историко-архитектурных комплексов</workName>
+            <time>17</time>
+        </work>
+        <work semestr="4">
+            <workName>Социальные услуги для населения</workName>
+            <time>92</time>
+        </work>
+        <work semestr="5">
+            <workName>Уход за местами захоронений</workName>
+            <time>45</time>
+        </work>
+    </student>
+</students>
+
