@@ -79,38 +79,6 @@ SearchWindow::SearchWindow()
     line33 = new QLineEdit;
     line34 = new QLineEdit;
 
-    prevPage = new QPushButton();
-    prevPage -> setFixedSize(25,25);
-    prevPage -> setIcon(QIcon("images/prevpage.png"));
-    prevPage -> setIconSize(prevPage->size());
-    prevPage -> setToolTip ("Предыдущая страница");
-    prevPage-> setEnabled(false);
-
-    nextPage = new QPushButton();
-    nextPage -> setFixedSize(25,25);
-    nextPage -> setIcon(QIcon("images/nextpage.png"));
-    nextPage -> setIconSize(nextPage->size());
-    nextPage -> setToolTip ("Следующая страница");
-    nextPage-> setEnabled(false);
-
-    firstPage = new QPushButton("Первая страница");
-    firstPage-> setEnabled(false);
-
-    lastPage = new QPushButton("Последняя страница");
-    lastPage-> setEnabled(false);
-
-    butSetNumPages = new QPushButton("Изменить");
-    butSetNumPages ->setEnabled(false);
-
-    lblNumPages = new QLabel("Количество записей на странице");
-
-    lblNumOfAllRec = new QLabel("Количество записей найдено: <b>0</b>");
-
-    lineNumPages = new QLineEdit();
-    lineNumPages->setText(QString::number(maxRec));
-
-    page = new QLabel("Страница 1 из 1");
-
     QHBoxLayout *lay31 = new QHBoxLayout;
     lay31->addWidget(lbl32);
     lay31->addWidget(line32);
@@ -134,26 +102,13 @@ SearchWindow::SearchWindow()
 
     box3->setLayout(lay34);
 
-    table = new QTableWidget(this);
-
-    QHBoxLayout *layPages = new QHBoxLayout;
-    layPages->addWidget(firstPage);
-    layPages->addWidget(prevPage);
-    layPages->addWidget(page);
-    layPages->addWidget(nextPage);
-    layPages->addWidget(lastPage);
-    layPages->addWidget(lblNumOfAllRec);
-    layPages->addWidget(lblNumPages);
-    layPages->addWidget(lineNumPages);
-    layPages->addWidget(butSetNumPages);
-    layPages->addStretch(1);
+    tableData = new TableDatadase;
 
     QVBoxLayout *layall = new QVBoxLayout;
     layall->addWidget(box1);
     layall->addWidget(box2);
     layall->addWidget(box3);
-    layall->addWidget(table);
-    layall->addLayout(layPages);
+    layall->addWidget(tableData);
 
     setLayout(layall);
     setWindowTitle("Поиск записи");
@@ -165,11 +120,6 @@ SearchWindow::SearchWindow()
     connect(butSrch3, SIGNAL(clicked(bool)), this, SLOT(PushButtonSrch3()));
     connect(butClr3, SIGNAL(clicked(bool)), this, SLOT(PushButtonClr3()));
 
-    connect (nextPage, SIGNAL(clicked()), this, SLOT(PushButtonNextPage()));
-    connect (prevPage, SIGNAL(clicked()), this, SLOT(PushButtonPrevPage()));
-    connect (firstPage, SIGNAL(clicked()), this, SLOT(PushButtonFirstPage()));
-    connect (lastPage, SIGNAL(clicked()), this, SLOT(PushButtonLastPage()));
-    connect (butSetNumPages, SIGNAL(clicked()), this, SLOT(ChangeNumberOfRecords()));
 }
 
 
@@ -289,139 +239,9 @@ void SearchWindow::SrchState(int colStd)
 
 void SearchWindow::UpdateDataSrch(QList<Student> database)
 {
-    table->setRowCount(maxRec);
-    table->setColumnCount(12);
-    butSetNumPages ->setEnabled(true);
-
-    for(int row = 0; row < table->rowCount(); row++)
-      for(int column = 0; column < table->columnCount(); column++)
-          table->setItem(row, column, new QTableWidgetItem());
-
-    QStringList name_table;
-            name_table << "\nФИО студента\n" << "\nГруппа\n" << "1 семестр\n\nВид общественной работы"<< "\n\nКоличество часов"
-                          << "2 семестр\n\nВид общественной работы"<< "\n\nКоличество часов"
-                          << "3 семестр\n\nВид общественной работы"<< "\n\nКоличество часов"
-                          << "4 семестр\n\nВид общественной работы"<< "\n\nКоличество часов"
-                          << "5 семестр\n\nВид общественной работы"<< "\n\nКоличество часов";
-
-    table->setHorizontalHeaderLabels(name_table);
-    table->resizeColumnsToContents();
-    table->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    table->setShowGrid(true);
-    table->setSelectionMode(QAbstractItemView::SingleSelection);
-    table->setSelectionBehavior(QAbstractItemView::SelectRows);
-
-   /* for (int st = 0; st < database.length(); st++){
-        table->item(st,0)->setText(database.at(st).surname + " " + database.at(st).name + " " + database.at(st).fathername + " ");
-        table->item(st,1)->setText(QString::number(database.at(st).group));
-        for (int i = 2, j = 0; i < 12; i=i+2, j++)
-            table->item(st,i)->setText(database.at(st).works.at(j));
-        for (int i = 3, j = 0; i < 12; i=i+2, j++)
-            table->item(st,i)->setText(QString::number(database.at(st).hours[j]));
-    }*/
     search_result = database;
-    QStringList nameRows;
-    SetPage(database.length());
-    int maxRecOnPage = 0;
-    if (database.length()==0)
-        maxRecOnPage = 0;
-    else{
-        if (curPage == numPages)
-            maxRecOnPage = database.length()-(numPages-1)*maxRec;
-        else  maxRecOnPage = maxRec;
-    }
+    tableData->UpdateData(search_result);
 
-    for (int st = (curPage-1)*maxRec, numRow = 0; st < (curPage-1)*maxRec+maxRecOnPage; st++, numRow++){
-        table->item(numRow,0)->setText(database.at(st).surname + " " + database.at(st).name + " " + database.at(st).fathername + " ");
-        table->item(numRow,1)->setText(QString::number(database.at(st).group));
-        for (int i = 2, j = 0; i < 12; i=i+2, j++)
-            table->item(numRow,i)->setText(database.at(st).works.at(j));
-        for (int i = 3, j = 0; i < 12; i=i+2, j++)
-            table->item(numRow,i)->setText(QString::number(database.at(st).hours[j]));
-    }
-    lblNumOfAllRec->setText("Количество записей найдено: <b>" + QString::number(database.length()) + "</b>");
-    for (int i = (curPage-1)*maxRec; i < curPage*maxRec; i++)
-        nameRows << QString::number(i+1);
-    table->setVerticalHeaderLabels(nameRows);
-}
-
-void SearchWindow::ChangeNumberOfRecords()
-{
-    bool ok=true;
-    lineNumPages->text().toInt(&ok, 10);
-    if (ok == false){
-        (new QErrorMessage(this))->showMessage("Введено некорректное количество записей!");
-        lineNumPages->setText(QString::number(maxRec));
-    }
-    else if (lineNumPages->text().toInt(&ok, 10)<=0)
-    {
-        (new QErrorMessage(this))->showMessage("Введено некорректное количество записей!");
-        lineNumPages->setText(QString::number(maxRec));
-    }
-    else
-    {
-        maxRec = lineNumPages->text().toInt(&ok, 10);
-        table->setRowCount(maxRec);
-
-        for(int row = 0; row < table->rowCount(); row++)
-          for(int column = 0; column < table->columnCount(); column++)
-              table->setItem(row, column, new QTableWidgetItem());
-        UpdateDataSrch(search_result);
-    }
-}
-
-void SearchWindow::SetPage(int numRec)
-{
-    if (numRec!=0){
-        numPages = ceil((double) numRec/maxRec);
-
-        prevPage -> setEnabled(curPage!=1);
-        firstPage -> setEnabled(curPage!=1);
-
-        nextPage -> setEnabled(curPage!=numPages);
-        lastPage -> setEnabled(curPage!=numPages);
-    }
-    else
-    {
-        curPage = numPages = 1;
-        prevPage -> setEnabled(false);
-        firstPage -> setEnabled(false);
-        nextPage -> setEnabled(false);
-        lastPage -> setEnabled(false);
-    }
-    page->setText("Страница " + QString::number(curPage) + " из " + QString::number(numPages) );
-
-}
-
-void  SearchWindow::TableClear()
-{
-    for(int row = 0; row < maxRec; row++)
-        for(int column = 0; column < maxCol; column++)
-            table->item(row, column)->setText("");
-}
-
-void SearchWindow::PushButtonNextPage()
-{
-    curPage++;
-    UpdateDataSrch(search_result);
-}
-
-void SearchWindow::PushButtonPrevPage()
-{
-    curPage--;
-    UpdateDataSrch(search_result);
-}
-
-void SearchWindow::PushButtonFirstPage()
-{
-    curPage = 1;
-    UpdateDataSrch(search_result);
-}
-
-void SearchWindow::PushButtonLastPage()
-{
-    curPage = numPages;
-    UpdateDataSrch(search_result);
 }
 
 void SearchWindow::SetWorks()

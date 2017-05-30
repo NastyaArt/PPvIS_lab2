@@ -12,6 +12,7 @@
 #include "addwindow.h"
 #include "delwindow.h"
 #include "searchwindow.h"
+#include "tabledatadase.h"
 
 
 
@@ -33,7 +34,7 @@ public:
 private:
     Ui::MainWindow *ui;
 
-    QList<Student> actual_base;    
+    TableDatadase *tableData;
 
     QPushButton *butAdd;
     QPushButton *butSrch;
@@ -41,30 +42,12 @@ private:
     QPushButton *butClr;
     QPushButton *butSave;
     QPushButton *butUpld;
-    QPushButton *prevPage;
-    QPushButton *nextPage;
 
-    int maxRec=15;
-    int numPages=1;
-    int curPage=1;
-    int maxCol=12;
-
-    QTableWidget *table;
     QGroupBox *group;
-    void  TableClear();
 
-    QLabel *page;
-    QLabel *lblNumPages;
-    QLabel *lblNumOfAllRec;
-    QLineEdit *lineNumPages;
-    QPushButton *butSetNumPages;
-    QPushButton *firstPage;
-    QPushButton *lastPage;
-
-    void SetPage(int numRec);
     void CreateActions();
     void CreateMenus();
-    void SetActualWorks();
+    void SetActualWorks(QList<Student> actual_base);
 
     QMenu *fileMenu;
     QMenu *editMenu;
@@ -96,13 +79,6 @@ private slots:
     void DataBaseIsClear();
     void PushButtonUpld();
     void PushButtonClear();
-
-    void PushButtonNextPage();
-    void PushButtonPrevPage();
-    void PushButtonFirstPage();
-    void PushButtonLastPage();
-
-    void ChangeNumberOfRecords();
 
     void AddStudent();
     void DelStudent();

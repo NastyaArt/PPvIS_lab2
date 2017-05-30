@@ -13,6 +13,7 @@
 #include <QTableWidget>
 #include "student.h"
 #include <QCompleter>
+#include "tabledatadase.h"
 
 namespace Ui {
 class SearchWindow;
@@ -29,6 +30,8 @@ public:
 private:
 
     QList<Student> search_result;
+
+    TableDatadase *tableData;
 
     QGroupBox *box1;
     QGroupBox *box2;
@@ -60,26 +63,8 @@ private:
     bool checkFull = true;
     QRegExp fio = ("[А-ЯЁа-яё]+");
 
-    QPushButton *prevPage;
-    QPushButton *nextPage;
-    QLabel *page;
-    QLabel *lblNumPages;
-    QLabel *lblNumOfAllRec;
-    QLineEdit *lineNumPages;
-    QPushButton *butSetNumPages;
-    QPushButton *firstPage;
-    QPushButton *lastPage;
-    void SetPage(int numRec);
-    int maxRec=4;
-    int curPage=1;
-    int numPages=1;
-
-    int maxCol=12;
-    QTableWidget *table;
-
-    void TableClear();
-
 signals:
+
     void SendDataSrch1(QString surname, int gpoup);
     void SendDataSrch2(QString surname, QString work);
     void SendDataSrch3(QString surname, int timemin, int timemax, QString work);
@@ -95,12 +80,6 @@ private slots:
     void SrchState(int colStd);
     void UpdateDataSrch(QList<Student> database);
 
-    void PushButtonNextPage();
-    void PushButtonPrevPage();
-    void PushButtonFirstPage();
-    void PushButtonLastPage();
-
-    void ChangeNumberOfRecords();
 };
 
 #endif // SEARCHWINDOW_H

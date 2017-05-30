@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
     QObject::connect(&base, SIGNAL(SendDataSrch(QList<Student>)), w.srchWind, SLOT(UpdateDataSrch(QList<Student>)));
 
     QObject::connect(&w, SIGNAL(GetDataBase()), &base, SLOT(GetDataBase()));
- //   QObject::connect(&w, SIGNAL(GetDataBase()), &base, SLOT(GetDataBase()));
 
     w.showMaximized();
     w.setWindowTitle("Общественная работа");

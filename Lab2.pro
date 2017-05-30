@@ -18,13 +18,15 @@ SOURCES += main.cpp\
     delwindow.cpp \
     searchwindow.cpp \
     student.cpp \
-    database.cpp
+    database.cpp \
+    tabledatadase.cpp
 
 HEADERS  += mainwindow.h \
     addwindow.h \
     delwindow.h \
     searchwindow.h \
     student.h \
-    database.h
+    database.h \
+    tabledatadase.h
 
 FORMS    += mainwindow.ui

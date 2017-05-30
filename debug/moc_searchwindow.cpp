@@ -20,8 +20,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_SearchWindow_t {
-    QByteArrayData data[26];
-    char stringdata0[339];
+    QByteArrayData data[21];
+    char stringdata0[240];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -50,12 +50,7 @@ QT_MOC_LITERAL(16, 184, 9), // "SrchState"
 QT_MOC_LITERAL(17, 194, 6), // "colStd"
 QT_MOC_LITERAL(18, 201, 14), // "UpdateDataSrch"
 QT_MOC_LITERAL(19, 216, 14), // "QList<Student>"
-QT_MOC_LITERAL(20, 231, 8), // "database"
-QT_MOC_LITERAL(21, 240, 18), // "PushButtonNextPage"
-QT_MOC_LITERAL(22, 259, 18), // "PushButtonPrevPage"
-QT_MOC_LITERAL(23, 278, 19), // "PushButtonFirstPage"
-QT_MOC_LITERAL(24, 298, 18), // "PushButtonLastPage"
-QT_MOC_LITERAL(25, 317, 21) // "ChangeNumberOfRecords"
+QT_MOC_LITERAL(20, 231, 8) // "database"
 
     },
     "SearchWindow\0SendDataSrch1\0\0surname\0"
@@ -64,10 +59,7 @@ QT_MOC_LITERAL(25, 317, 21) // "ChangeNumberOfRecords"
     "PushButtonClr1\0PushButtonSrch2\0"
     "PushButtonClr2\0PushButtonSrch3\0"
     "PushButtonClr3\0SrchState\0colStd\0"
-    "UpdateDataSrch\0QList<Student>\0database\0"
-    "PushButtonNextPage\0PushButtonPrevPage\0"
-    "PushButtonFirstPage\0PushButtonLastPage\0"
-    "ChangeNumberOfRecords"
+    "UpdateDataSrch\0QList<Student>\0database"
 };
 #undef QT_MOC_LITERAL
 
@@ -77,7 +69,7 @@ static const uint qt_meta_data_SearchWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      16,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -85,24 +77,19 @@ static const uint qt_meta_data_SearchWindow[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    2,   94,    2, 0x06 /* Public */,
-       5,    2,   99,    2, 0x06 /* Public */,
-       7,    4,  104,    2, 0x06 /* Public */,
+       1,    2,   69,    2, 0x06 /* Public */,
+       5,    2,   74,    2, 0x06 /* Public */,
+       7,    4,   79,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      10,    0,  113,    2, 0x08 /* Private */,
-      11,    0,  114,    2, 0x08 /* Private */,
-      12,    0,  115,    2, 0x08 /* Private */,
-      13,    0,  116,    2, 0x08 /* Private */,
-      14,    0,  117,    2, 0x08 /* Private */,
-      15,    0,  118,    2, 0x08 /* Private */,
-      16,    1,  119,    2, 0x08 /* Private */,
-      18,    1,  122,    2, 0x08 /* Private */,
-      21,    0,  125,    2, 0x08 /* Private */,
-      22,    0,  126,    2, 0x08 /* Private */,
-      23,    0,  127,    2, 0x08 /* Private */,
-      24,    0,  128,    2, 0x08 /* Private */,
-      25,    0,  129,    2, 0x08 /* Private */,
+      10,    0,   88,    2, 0x08 /* Private */,
+      11,    0,   89,    2, 0x08 /* Private */,
+      12,    0,   90,    2, 0x08 /* Private */,
+      13,    0,   91,    2, 0x08 /* Private */,
+      14,    0,   92,    2, 0x08 /* Private */,
+      15,    0,   93,    2, 0x08 /* Private */,
+      16,    1,   94,    2, 0x08 /* Private */,
+      18,    1,   97,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString, QMetaType::Int,    3,    4,
@@ -118,11 +105,6 @@ static const uint qt_meta_data_SearchWindow[] = {
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,   17,
     QMetaType::Void, 0x80000000 | 19,   20,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
 
        0        // eod
 };
@@ -144,11 +126,6 @@ void SearchWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         case 8: _t->PushButtonClr3(); break;
         case 9: _t->SrchState((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 10: _t->UpdateDataSrch((*reinterpret_cast< QList<Student>(*)>(_a[1]))); break;
-        case 11: _t->PushButtonNextPage(); break;
-        case 12: _t->PushButtonPrevPage(); break;
-        case 13: _t->PushButtonFirstPage(); break;
-        case 14: _t->PushButtonLastPage(); break;
-        case 15: _t->ChangeNumberOfRecords(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -200,13 +177,13 @@ int SearchWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 16)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 16;
+        _id -= 11;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 16)
+        if (_id < 11)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 16;
+        _id -= 11;
     }
     return _id;
 }
